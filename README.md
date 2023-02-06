@@ -1,2 +1,2 @@
 # TGS
-a project about how to identify SV with TGS data
+a project about how to identify INS with TGS data
