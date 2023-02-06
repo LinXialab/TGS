@@ -1,0 +1,32 @@
+##### load config #####
+
+configfile: "config.yml"
+workdir: "/INS/reannotation/test_sample/"
+include: "rules/common.smk"
+#insert_df_path = "/Section2/INS_blood/Assembly_INS_SGE/somatic_INS_seq_for_pxn_60-120.txt"
+insert_df_path = "OSCC_tumor_data_for_reanotation.txt"
+insert_df = pd.read_csv(insert_df_path, sep="\t", names=["ins_id", "path", "ins_loc_hg38"])
+insert_df.set_index("ins_id", inplace=True)
+
+## check validation of INS sequence and repeatmasker result
+get_valid_sv(insert_df, config["file"]["valid_sv"])
+get_valid_repeatmasker(insert_df, config["file"]["valid_repeat"])
+## read reference genome
+sv_ls = pd.read_csv(config["file"]["valid_sv"], names=["id"])["id"].tolist()
+repeat_ls = pd.read_csv(config["file"]["valid_repeat"], names=["id"])["id"].tolist()
+ref_file = "/data/fs01/wangzf/nanopore/ref/mainChr_hg38_UCSC.fa"
+ref_records = SeqIO.parse(ref_file, "fasta")
+ref_records_dict = SeqIO.to_dict(ref_records)
+
+##### target rules #####
+
+rule all:
+    input:
+        config["file"]["final_summary"]
+
+
+include: "rules/extract.smk"
+include: "rules/needle.smk"
+include: "rules/trf_pattern.smk"
+include: "rules/summary.smk"
+include: "rules/region.smk"
