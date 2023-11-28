@@ -5,19 +5,25 @@
 python package `biopython` and `pandas`
 
 `snakemake 6.2.1` (tested version)
+
 `sdust 01(r2)`
+
 `TRF 4.09.1`
+
 `needle`, `EMBOSS 6.6.0.0`
 
 ## Installation guide
 
 Install via `conda` by
+
 `conda install -c bioconda snakemake emboss biopython pandas`
 
 Install `sdust` as in
+
 `https://github.com/lh3/sdust`
 
 Install `TRF` as in
+
 `https://github.com/Benson-Genomics-Lab/TRF`
 
 ## Demo
@@ -38,12 +44,12 @@ The final out file is `all.INS.sdust.trf.replaced.cor.type.final.tsv`.
 
    ```markdown
    ├── insertion1
-   │	├── insertion1.fasta
+   │   ├── insertion1.fasta
    │   ├── RepeatMasker
    │   │   ├── insertion1.fasta.cat 
-   │   │	├── insertion1.fasta.masked
-   │   │	├── insertion1.fasta.out
-   │   │	├── insertion1.fasta.tbl
+   │   │   ├── insertion1.fasta.masked
+   │   │   ├── insertion1.fasta.out
+   │   │   ├── insertion1.fasta.tbl
    ```
    
 2. Specify the path to the file recording information of the insertions to test in `Snakefile` `insert_df_path = xxx`. The file should has three columns with tab delimiter and no header. The content of each column is described below. 
