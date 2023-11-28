@@ -47,10 +47,10 @@ The final out file is `all.INS.sdust.trf.replaced.cor.type.final.tsv`.
    ```
    
 2. Specify the path to the file recording information of the insertions to test in `Snakefile` `insert_df_path = xxx`. The file should has three columns with tab delimiter and no header. The content of each column is described below. 
-| Column 1 | insertion id |
-| :------------- | :------------- |
-| **Column 2** | **path to the folder contain the `RepeatMasker` result of the insertion (a subfolder named `RepeatMasker`) and the `fasta` sequence of the insertion** |
-| **Column 3** | **precise insert site on reference genome of the insertion** |
+   | Column 1  | insertion id   |
+   | :-------------  | :------------- |
+   | **Column 2**  | **path to the folder contain the `RepeatMasker` result of the    insertion (a subfolder named `RepeatMasker`) and the `fasta` sequence of the insertion** |
+   | **Column 3**  | **precise insert site on reference genome of the insertion** |
 
 3. Specify the executable path of `TRF`, `sdust` and `needle` in `config.yaml` file `tool` section.
 
@@ -71,6 +71,7 @@ The final out file is `all.INS.sdust.trf.replaced.cor.type.final.tsv`.
    | **repeat_dup** | **the insertion is a multiple times duplication of a sequence pattern or not** |
    | **clean_decision** | **the final annotation of the insertion sequence with the coordinate information** |
 
+   The insertion with either column `segment_dup` as `1` or column `repeat_dup` as `1` is considered as a `TD`.
 
 
 
