@@ -1,0 +1,4 @@
+   SW   perc perc perc  query                                     position in query    matching repeat           position in repeat
+score   div. del. ins.  sequence                                  begin end   (left)   repeat   class/family   begin  end    (left)  ID
+
+   85   27.3  0.0  0.0  Lung33_blood_chr1_2019179_2019183_INS_53      1   218    (1) + G-rich   Low_complexity      1    218    (0)   1  

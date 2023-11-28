@@ -1,0 +1,34 @@
+##### load config #####
+
+configfile: "config.yml"
+workdir: "/data/fs08/wangzf/nanopore/pxn/INS/reannotation/test_sample2/"
+include: "rules/common.smk"
+insert_df_path = "/data/fs08/wangzf/nanopore/pxn/INS/reannotation/demo/test_sample.txt"
+insert_df = pd.read_csv(insert_df_path, sep="\t", names=["ins_id", "path", "ins_loc_hg38"])
+insert_df.set_index("ins_id", inplace=True)
+## check validation of INS sequence and repeatmasker result
+get_valid_sv(insert_df, config["file"]["valid_sv"])
+get_valid_repeatmasker(insert_df, config["file"]["valid_repeat"])
+## read reference genome
+sv_ls = pd.read_csv(config["file"]["valid_sv"], names=["id"])["id"].tolist()
+repeat_ls = pd.read_csv(config["file"]["valid_repeat"], names=["id"])["id"].tolist()
+ref_file = "/data/fs01/wangzf/nanopore/ref/mainChr_hg38_UCSC.fa"
+ref_records = SeqIO.parse(ref_file, "fasta")
+ref_records_dict = SeqIO.to_dict(ref_records)
+
+##### resources setting ######
+core_num = 4
+memory_assign = 20
+
+##### target rules #####
+
+rule all:
+    input:
+        config["file"]["final_summary"]
+
+
+include: "rules/extract.smk"
+include: "rules/needle.smk"
+include: "rules/trf_pattern.smk"
+include: "rules/summary.smk"
+include: "rules/region.smk"

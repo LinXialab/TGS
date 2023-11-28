@@ -1,0 +1,33 @@
+85 27.29 0.00 0.00 Lung33_blood_chr1_2019179_2019183_INS_53 1 218 (1) (GGGGG)n#Simple_repeat 1 218 (0) m_b1s252i0
+
+  Lung33_blood_          1 GGGGCGGGGAGGAGAGGGGGAGAGGGGAGGGGACCGGGTAGGGTGGGGGG 50
+                               v    i  i i     i i    i    ivv   vi   v      
+  (GGGGG)n#Simp          1 GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG 50
+
+  Lung33_blood_         51 GGAACGGGGAGGGGAGCGGCGGGGCGGGGTGGGGGGTGGGGAGGGGAGGG 100
+                             iiv    i    i v  v    v    v      v    i    i   
+  (GGGGG)n#Simp         51 GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG 100
+
+  Lung33_blood_        101 GGGGGAGAAGACGGGCAGCGGGAGGGCGGGGGGGGGATGGGGGGGGGGGG 150
+                                i ii iv   vi v   i   v         iv            
+  (GGGGG)n#Simp        101 GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG 150
+
+  Lung33_blood_        151 GAGGGGGGCGGGGAGGGGATGGGGGGAGGGGGGAGGGGATGGGGGGGGGG 200
+                            i      v    i    iv      i      i    iv          
+  (GGGGG)n#Simp        151 GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG 200
+
+  Lung33_blood_        201 AGGGGAGGGGGGGGGAGG 218
+                           i    i         i  
+  (GGGGG)n#Simp        201 GGGGGGGGGGGGGGGGGG 218
+
+Matrix = Unknown
+Transitions / transversions = 1.58 (30/19)
+Gap_init rate = 0.00 (0 / 217), avg. gap size = 0.0 (0 / 0)
+
+## Total Sequences: 1
+## Total Length: 219
+## Total NonMask ( excluding >20bp runs of N/X bases ): 219
+## Total NonSub ( excluding all non ACGT bases ):219
+RepeatMasker version 4.1.0 , quick mode
+run with rmblastn version 2.9.0+
+RepeatMasker Combined Database: Dfam_3.1, RepBase-20170127

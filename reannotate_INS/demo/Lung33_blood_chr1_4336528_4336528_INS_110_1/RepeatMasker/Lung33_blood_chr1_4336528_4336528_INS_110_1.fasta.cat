@@ -1,0 +1,119 @@
+287 19.26 2.23 1.26 Lung33_blood_chr1_4336528_4336528_INS_11 1 628 (2) (GGTGAT)n#Simple_repeat 1 634 (0) m_b1s252i0
+
+  Lung33_blood_          1 GGTGATGATAATGGTGATGGTGATGGTAAACATGATAACGACAATGATAG 50
+                                  i i                 i vvi    iii  iii    i 
+  (GGTGAT)n#Sim          1 GGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGG 50
+
+  Lung33_blood_         51 TGGAAAGCGAATGGTGGTATTGATGGTGATGATGAAGAGGATGGTGATAA 100
+                            -  vi i -      i iv           i   v iv         ii
+  (GGTGAT)n#Sim         51 T-GATGGTG-ATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGG 98
+
+  Lung33_blood_        101 TAATGATGATGGTGATGATTATGTTGGTGATGATGGTAATGGTGA---TG 147
+                            i   i           i v   v  i  i       i       ---  
+  (GGTGAT)n#Sim         99 TGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTG 148
+
+  Lung33_blood_        148 ATAATGATGGTGATGGTGATGATGATGATTAT-GTGATGATGGTGGTGAT 196
+                             ii                 i     i v  -      i  i       
+  (GGTGAT)n#Sim        149 ATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGAT 198
+
+  Lung33_blood_        197 GGTGA---TGATGGTGATGGTGATGGTGATGGTGGTGATGGTGGTGATGA 243
+                                ---                          i  i  i        i
+  (GGTGAT)n#Sim        199 GGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGG 248
+
+  Lung33_blood_        244 TGATGGTGATGGTGATGGTGA---TAATGGTGATGGTGGTGATGATGATG 290
+                                                --- i            i  i     i  
+  (GGTGAT)n#Sim        249 TGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTG 298
+
+  Lung33_blood_        291 GCGGGGAT-GTGATGATGATGGTGATGATGATGATGATGGAGATGATGAT 339
+                           ii  v   -      i           i     i      v    i    
+  (GGTGAT)n#Sim        299 ATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGAT 348
+
+  Lung33_blood_        340 GATGGTGATGATGATGATGGTGATGATGTGATGGCGATGATAGTGATTAT 389
+                            i  i  i     i           --       i    i ii  i v  
+  (GGTGAT)n#Sim        349 GGTGATGGTGATGGTGATGGTGATG--GTGATGGTGATGGTGATGGTGAT 396
+
+  Lung33_blood_        390 GGTGATGGTGATGATGATGATGGTGATGGTGGTGATGGTGATGATGTGAT 439
+                                        i     i  i  i  i              --     
+  (GGTGAT)n#Sim        397 GGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATG--GTGAT 444
+
+  Lung33_blood_        440 GGTGATGGTGATGATAATAATGAT-GTGATGGTGATGATGGCGGTGAT-G 487
+                                        i i  ii    -            i  ii      - 
+  (GGTGAT)n#Sim        445 GGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGG 494
+
+  Lung33_blood_        488 TGATGATGATGGTGATGGTGATGATAATGGAGATGATGATGGTGATGATG 537
+                                i                 i i    v    i           i  
+  (GGTGAT)n#Sim        495 TGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTG 544
+
+  Lung33_blood_        538 GTGATGATGGTGATGATGTGATGATGGCGGTGATGGTGATGATGATGATG 587
+                           i  i           --      i  ii             i     i  
+  (GGTGAT)n#Sim        545 ATGGTGATGGTGATG--GTGATGGTGATGGTGATGGTGATGGTGATGGTG 592
+
+  Lung33_blood_        588 GTGATGGTGGTGATGGTAGTGATAAT-GTGATAATGATGGTG 628
+                           i  i  i          ii  i i  -     ii        
+  (GGTGAT)n#Sim        593 ATGGTGATGGTGATGGTGATGGTGATGGTGATGGTGATGGTG 634
+
+Matrix = Unknown
+Transitions / transversions = 6.69 (87/13)
+Gap_init rate = 0.03 (16 / 627), avg. gap size = 1.38 (22 / 16)
+
+302 17.34 1.43 0.00 Lung33_blood_chr1_4336528_4336528_INS_11 71 628 (2) (TGA)n#Simple_repeat 1 566 (0) m_b1s252i1
+
+  Lung33_blood_         71 TGATGGTGATGATGAAGAGGATGGTGATAATAATGATGATGGTGATGATT 120
+                                i         v  v    i    i  i         i       v
+  (TGA)n#Simple          1 TGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATG 50
+
+  Lung33_blood_        121 ATGTTGGTGATGATGGTAATGGTGATGATAATGATGGTGATGGTGATGAT 170
+                              v  i        i i   i       i      i     i       
+  (TGA)n#Simple         51 ATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGAT 100
+
+  Lung33_blood_        171 GATGATTATG-TGATGATGGTGGTGATGGTGATGATGGTGATGGTGATGG 219
+                                 v   -        i  i     i        i     i     i
+  (TGA)n#Simple        101 GATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGA 150
+
+  Lung33_blood_        220 TGATGGTGGTGATGGTGGTGATGATGATGGTGATGGTGATGGTGATAATG 269
+                                i  i     i  i           i     i     i    i   
+  (TGA)n#Simple        151 TGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATG 200
+
+  Lung33_blood_        270 GTGATGGTGGTGATGATGATGGCGGGGATG-TGATGATGATGGTGATGAT 318
+                           i     i  i           ii iv    -           i       
+  (TGA)n#Simple        201 ATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGAT 250
+
+  Lung33_blood_        319 GATGATGATGGAGATGATGATGATGGTGATGATGATGATGGTGATGATG- 367
+                                     iv             i              i        -
+  (TGA)n#Simple        251 GATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGA 300
+
+  Lung33_blood_        368 TGATGGCGATGATAGTGATTATGGTGATGGTGATGATGATGATGGTGATG 417
+                                ii      ii    v   i     i              i     
+  (TGA)n#Simple        301 TGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATG 350
+
+  Lung33_blood_        418 GTGGTGATGGTGATGATG-TGATGGTGATGGTGATGATAATAATGATG-T 465
+                           i  i     i        -     i     i       i  i      - 
+  (TGA)n#Simple        351 ATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGAT 400
+
+  Lung33_blood_        466 GATGGTGATGATGGCGGTGATG-TGATGATGATGGTGATGGTGATGATAA 514
+                               i        ii i     -           i     i       i 
+  (TGA)n#Simple        401 GATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGA 450
+
+  Lung33_blood_        515 TGGAGATGATGATGGTGATGATGGTGATGATGGTGATGATG-TGATGATG 563
+                             iv          i        i        i        -        
+  (TGA)n#Simple        451 TGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATG 500
+
+  Lung33_blood_        564 GCGGTGATGGTGATGATGATGATGGTGATGGTGGTGATGGTAGTGATAAT 613
+                           ii i     i              i     i  i     i ii    i  
+  (TGA)n#Simple        501 ATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGATGAT 550
+
+  Lung33_blood_        614 G-TGATAATGATGGTG 628
+                            -    i      i  
+  (TGA)n#Simple        551 GATGATGATGATGATG 566
+
+Matrix = Unknown
+Transitions / transversions = 8.22 (74/9)
+Gap_init rate = 0.01 (8 / 557), avg. gap size = 1.00 (8 / 8)
+
+## Total Sequences: 1
+## Total Length: 630
+## Total NonMask ( excluding >20bp runs of N/X bases ): 630
+## Total NonSub ( excluding all non ACGT bases ):630
+RepeatMasker version 4.1.0 , quick mode
+run with rmblastn version 2.9.0+
+RepeatMasker Combined Database: Dfam_3.1, RepBase-20170127

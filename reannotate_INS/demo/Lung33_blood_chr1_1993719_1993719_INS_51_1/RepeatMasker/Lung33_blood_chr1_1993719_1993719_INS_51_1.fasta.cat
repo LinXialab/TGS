@@ -1,0 +1,26 @@
+772 14.17 0.00 8.59 Lung33_blood_chr1_1993719_1993719_INS_51 1 139 (7) FLAM_C_short_#SINE/Alu 6 133 (0) m_b1s502i0
+
+  Lung33_blood_          1 GGCACAGTGGCTCATGCCTGTAATCCCAGCAACATGGGAGCCTGAGGTGG 50
+                              i i        i                viv      v i    i  
+  FLAM_C_short_          6 GGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGG 55
+
+  Lung33_blood_         51 GAGGCTCTCTTGAGGCCAGGAGTTTGAGACCAGCCTGGGCAACATAGTGA 100
+                               v  v      v         i                      i  
+  FLAM_C_short_         56 GAGGATCGCTTGAGCCCAGGAGTTCGAGACCAGCCTGGGCAACATAGCGA 105
+
+  Lung33_blood_        101 GACCCCCCCCCCCCGCCATTTCTAGGAAAAAAAAAAAAA 139
+                               -----------  i i    ii             
+  FLAM_C_short_        106 GACC-----------CCGTCTCTAAAAAAAAAAAAAAAA 133
+
+Matrix = 20p43g.matrix
+Kimura (with divCpGMod) = 8.96
+Transitions / transversions = 2.00 (12/6)
+Gap_init rate = 0.08 (11 / 138), avg. gap size = 1.00 (11 / 11)
+
+## Total Sequences: 1
+## Total Length: 146
+## Total NonMask ( excluding >20bp runs of N/X bases ): 146
+## Total NonSub ( excluding all non ACGT bases ):146
+RepeatMasker version 4.1.0 , quick mode
+run with rmblastn version 2.9.0+
+RepeatMasker Combined Database: Dfam_3.1, RepBase-20170127

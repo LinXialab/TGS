@@ -1,0 +1,4 @@
+   SW   perc perc perc  query                                     position in query    matching repeat          position in repeat
+score   div. del. ins.  sequence                                  begin end   (left)   repeat   class/family  begin  end    (left)  ID
+
+  302   17.3  1.4  0.0  Lung33_blood_chr1_4336528_4336528_INS_11      1   628    (2) + (TGA)n   Simple_repeat      1    636    (0)   1  

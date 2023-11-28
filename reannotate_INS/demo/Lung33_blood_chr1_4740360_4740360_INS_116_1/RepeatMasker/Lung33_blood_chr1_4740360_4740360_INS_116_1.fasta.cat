@@ -1,0 +1,29 @@
+23 26.40 2.03 8.63 Lung33_blood_chr1_4740360_4740360_INS_11 1 148 (6) (GGGAG)n#Simple_repeat 1 139 (0) m_b1s252i0
+
+  Lung33_blood_          1 GGGAGGGGATGGGGAGTGAGTGTTGATGGGGACAGAGTGGGGAGGGGGGA 50
+                                    -      - i v vv  -     -i i v         i i
+  (GGGAG)n#Simp          1 GGGAGGGGA-GGGGAG-GGGAGGGGA-GGGGA-GGGGAGGGGAGGGGAGG 46
+
+  Lung33_blood_         51 GGGGGTGAGTGTTTGATGGGGACAGTGTGGGGGGGGGGGGGGAGTGGGGA 100
+                             i  v   - --v  -     -i v v    i    i     --     
+  (GGGAG)n#Simp         47 GGAGGGGAG-G--GGA-GGGGA-GGGGAGGGGAGGGGAGGGGA--GGGGA 89
+
+  Lung33_blood_        101 GTGATGGGGA-CAGAGTGG-GGGG-GGGGAGGGGTGAGTGAGTGATGGGG 147
+                            v iv     -vi   v  -    -         v - v   v iv    
+  (GGGAG)n#Simp         90 GGGGAGGGGAGGGGAGGGGAGGGGAGGGGAGGGGAG-GGGAGGGGAGGGG 138
+
+  Lung33_blood_        148 A 148
+                            
+  (GGGAG)n#Simp        139 A 139
+
+Matrix = Unknown
+Transitions / transversions = 0.75 (12/16)
+Gap_init rate = 0.10 (15 / 147), avg. gap size = 1.00 (15 / 15)
+
+## Total Sequences: 1
+## Total Length: 154
+## Total NonMask ( excluding >20bp runs of N/X bases ): 154
+## Total NonSub ( excluding all non ACGT bases ):154
+RepeatMasker version 4.1.0 , quick mode
+run with rmblastn version 2.9.0+
+RepeatMasker Combined Database: Dfam_3.1, RepBase-20170127
