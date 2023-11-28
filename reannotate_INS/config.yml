@@ -20,9 +20,9 @@ file:
         cor_dict: "ins_seq.pattern.align.cor.dict.obj"
         ins_ls: "repeat_pattern.ins.ls"
 tool:
-    trf: "/data/fs08/wangzf/nanopore/pxn/00.tool/TRF-master/build/src/trf"
-    sdust: "/data/fs01/wangzf/software/anaconda3/envs/medaka/bin/sdust"
-    needle: "/data/fs01/wangzf/software/anaconda3/envs/medaka/bin/needle"
+    trf: "path to trf"
+    sdust: "path to sdust"
+    needle: "path to needle, such as anaconda3_folder/envs/medaka/bin/needle"
 parameter:
     trf: "2 5 7 80 10 50 2000 -l 10 -ngs -h"
     needle: "-gapopen 10 -gapextend 0.5"
